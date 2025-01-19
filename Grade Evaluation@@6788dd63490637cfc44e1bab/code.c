@@ -3,7 +3,7 @@
 int main() {
     char c;
     scanf("%c",&c);
-    if(c=="A"){
+    if(c=='A'){
         printf("Excellent");
     }
     else if(c=="B"){
@@ -19,7 +19,7 @@ int main() {
         printf("Fail");
     }
     else {
-        printf("Invalid Grade");
+        printf("Invalid grade");
     }
     return 0;
 }
