@@ -3,7 +3,7 @@
 int main() {
     char c;
     scanf("%c",&c);
-    if(90>=c>=65){
+    if(90>=c and c>=65){
         printf("Uppercase");
     }
     else{
