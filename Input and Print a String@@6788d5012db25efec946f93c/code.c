@@ -1,12 +1,9 @@
 #include <stdio.h>
 
-char* welcome(str[]) {
-    return str[];
-}
 
 int main() {
-    char str[];
-    scanf("%s",str[]);
-    printf("%s", welcome());
+    char str[100];
+    scanf("%s",str);
+    printf("%s", str);
     return 0;
 }
