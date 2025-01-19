@@ -2,11 +2,11 @@
 
 int main() {
     int a;
-    if(a>0){
-        printf("True");
+    if(!a){
+        printf("False");
     }
     else{
-        printf("False");
+        printf("True");
     }
     //printf("%s", welcome());
     return 0;
