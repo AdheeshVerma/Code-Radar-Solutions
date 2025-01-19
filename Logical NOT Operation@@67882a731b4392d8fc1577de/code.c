@@ -3,10 +3,10 @@
 int main() {
     int a;
     if(!a){
-        printf("False");
+        printf("True");
     }
     else{
-        printf("True");
+        printf("False");
     }
     //printf("%s", welcome());
     return 0;
