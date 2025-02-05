@@ -14,6 +14,7 @@ int main() {
         }
         else{
             test=1;
+            break;
         }
         
     }
