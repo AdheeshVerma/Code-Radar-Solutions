@@ -9,7 +9,7 @@ int main() {
         k++;
     }
     for(int i;i<size;i++){
-        if(str[i]='a'||str[i]='e'||str[i]='i'||str[i]='o'||str[i]='u'){
+        if(str[i]=='a'|| str[i]=='e'|| str[i]=='i'|| str[i]=='o'|| str[i]=='u'){
             vow++;
         }
     }
