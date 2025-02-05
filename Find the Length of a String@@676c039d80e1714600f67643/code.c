@@ -3,7 +3,7 @@
 int main() {
     char str[100];
     gets(str);
-    int size,k;
+    int size=0,k=0;
     while(str[k]!='\0'){
         size++;
         k++;
