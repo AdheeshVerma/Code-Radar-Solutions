@@ -2,7 +2,7 @@
 
 int main() {
     char str[100];
-    gets("%s",&str);
+    gets(str);
     int size,k;
     while(str[k]!='\0'){
         size++;
