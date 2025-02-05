@@ -2,7 +2,7 @@
 
 int main() {
     char str[100];
-    scanf("%s",&str);
+    gets("%s",&str);
     int size,k;
     while(str[k]!='\0'){
         size++;
