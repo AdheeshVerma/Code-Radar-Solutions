@@ -8,8 +8,8 @@ int main() {
             if(i==0||j==0||i==a-1||j==a-1){
                 printf("*");
             }
-            printf("\n");
         }
+            printf("\n");
     }
     return 0;
 }
