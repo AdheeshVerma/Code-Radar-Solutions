@@ -8,7 +8,7 @@ int main() {
         size++;
         k++;
     }
-    for(int i;i<size;i++){
+    for(int i=0;i<size;i++){
         if(str[i]=='a'|| str[i]=='e'|| str[i]=='i'|| str[i]=='o'|| str[i]=='u'){
             vow++;
         }
