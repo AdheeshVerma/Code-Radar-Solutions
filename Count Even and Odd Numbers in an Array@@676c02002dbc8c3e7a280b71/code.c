@@ -16,6 +16,6 @@ int main() {
             odd+=1;
         }
     }
-        printf("%d %d",even.odd);
+        printf("%d %d",even,odd);
     return 0;
 }
