@@ -1,8 +1,7 @@
-#include <stdio.h>
 
 void bubbleSort(arr,n){
     int i,j,temp;
-    for(i=1;i<n;i++){
+    for(i=0;i<n;i++){
         for(j=0;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
                 temp=arr[j];
@@ -21,7 +20,5 @@ int printArray(arr,n){
     for(i=0;i<n;i++){
        printf("%d ",a[i]);
     }
-    
-    
     return 0;
 }
