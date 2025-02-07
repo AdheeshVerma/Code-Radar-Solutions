@@ -1,5 +1,5 @@
 
-void bubbleSort(arr,n){
+int bubbleSort(arr,n){
     int i,j,temp;
     for(i=0;i<n;i++){
         for(j=0;j<n-i-1;j++){
@@ -13,6 +13,7 @@ void bubbleSort(arr,n){
             }
         }
     }
+    return 0;
 }
     
 int printArray(arr,n){
