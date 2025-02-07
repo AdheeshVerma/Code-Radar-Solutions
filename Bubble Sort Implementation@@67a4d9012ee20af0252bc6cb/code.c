@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void bubbleSort(int arr[], int n);
-void printArray(int arr[], int n);
+// void bubbleSort(int arr[], int n);
+// void printArray(int arr[], int n);
 
 // int main() {
 //     int n, i;
