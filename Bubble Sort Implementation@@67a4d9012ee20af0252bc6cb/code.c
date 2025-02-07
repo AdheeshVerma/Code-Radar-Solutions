@@ -19,7 +19,7 @@ int bubbleSort(arr,n){
 int printArray(arr,n){
     int i,j;
     for(i=0;i<n;i++){
-       printf("%d ",a[i]);
+       printf("%d ",arr[i]);
     }
     return 0;
 }
