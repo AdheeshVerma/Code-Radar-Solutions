@@ -1,5 +1,5 @@
 // Your code here...
-isPrime(int num){
+isPrime(num){
     int prime = 1;
     if(num<2){
         prime = 0;
