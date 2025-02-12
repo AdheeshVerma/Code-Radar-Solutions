@@ -1,6 +1,6 @@
 // Your code here...
 isPrime(int num){
-    int prime = 1
+    int prime = 1;
     if(num<2){
         prime = 0;
     }
