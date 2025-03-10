@@ -5,14 +5,12 @@ int main(){
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         for(int k=1;k<=1;k++){
-            if((i+k)%2==0){
-                printf("1 ");
-            }
-            else{
-                printf("0 ");
-            }
+            if((i+k)%2==0)
+            printf("1 ");
+            else
+            printf("0 ");
         }
-            printf("\n");
+        printf("\n");
     }
     return 0;
 }
