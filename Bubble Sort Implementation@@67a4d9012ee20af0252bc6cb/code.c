@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-void printarr(int arr[],int n){
+void printArray(int arr[],int n){
     for (int i = 0; i < n; i++)
     {
         printf("%d ",arr[i]);
     }
     
 }
-void bub(int arr[],int n){
+void bubbleSort(int arr[],int n){
     printf("\n");
     for (int i = 0; i < n-1; i++)
     {
@@ -22,20 +22,4 @@ void bub(int arr[],int n){
             }            
         }        
     }    
-}
-
-int main(){
-
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for (int i = 0; i < n; i++)
-    {
-        scanf("%d",&arr[i]);
-    }
-    
-    printarr(arr,n);
-    bub(arr,n);
-    printarr(arr,n);
-    return 0;
 }
