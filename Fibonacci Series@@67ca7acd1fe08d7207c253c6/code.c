@@ -8,7 +8,7 @@ int fib(int n) {
         return fib(n - 1) + fib(n - 2);
     }
 }
-void fibbonacciSeries(int n){
+void fibonacciSeries(int n){
     for(int i=0;i<n;i++){
         printf("%d",fib(i));
     }
