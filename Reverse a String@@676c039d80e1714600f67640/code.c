@@ -1,5 +1,5 @@
 #include<stdio.h>
-void rev(char* str,start,end){
+void rev(char* str,int start,int end){
     while(start<end){
         int temp = start;
         start = end;
