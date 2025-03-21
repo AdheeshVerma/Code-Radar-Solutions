@@ -4,9 +4,9 @@ int main(){
     char c;
     char c2;
     fgets(str,sizeof(str),stdin);
-    scanf("%c",&c);
+    scanf(" %c",&c);
     // getchar();
-    scanf("%c",&c2);
+    scanf(" %c",&c2);
     int i = 0;
     while(str[i]!='\0'){
         if(str[i]==c){
