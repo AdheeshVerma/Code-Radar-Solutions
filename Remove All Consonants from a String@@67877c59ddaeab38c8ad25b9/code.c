@@ -6,11 +6,11 @@ int main(){
     int i = 0;
     while(str[i]!='\0'){
         if(str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u'){
-            printf("%c",i);
+            printf("%c",str[i]);
         }
         else{
-            i++;
-            continue;
+            // i++;
+            printf(" ");
         }
         i++;
     }
