@@ -31,5 +31,5 @@ int main(){
     for(int i = 0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    printf("%d %d",max(arr,n),min(arr,n))
+    printf("%d %d",max(arr,a),min(arr,a))
 }
