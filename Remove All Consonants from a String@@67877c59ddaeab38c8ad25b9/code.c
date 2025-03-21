@@ -7,7 +7,12 @@ int main(){
         if(str[i]==' '){
             printf("%c",str[i]);
         }
-        else if(str[i]!='a' && str[i]!='e' && str[i]!='i' && str[i]!='o' && str[i]!='u' && str[i]!='U' && str[i]>48 && str[i]<57){
+        else if (str[i]>48 && str[i]<58)
+        {
+            printf("%c",str[i]);
+        }
+        
+        else if(str[i]!='a' && str[i]!='e' && str[i]!='i' && str[i]!='o' && str[i]!='u' && str[i]!='U'){
             i++;
             continue;
         }
