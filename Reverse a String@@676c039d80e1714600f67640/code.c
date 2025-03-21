@@ -1,7 +1,7 @@
 #include<stdio.h>
 void rev(char* str,int start,int end){
     while(start<end){
-        int temp = str[start];
+        char temp = str[start];
         str[start] = str[end];
         str[end] = temp;
         start++;
