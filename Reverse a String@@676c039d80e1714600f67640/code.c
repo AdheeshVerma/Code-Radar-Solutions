@@ -3,7 +3,7 @@ void rev(char* str,int start,int end){
     while(start<end){
         int temp = str[start];
         str[start] = str[end];
-        str[]end] = temp;
+        str[end] = temp;
         start++;
         end--;
     }
