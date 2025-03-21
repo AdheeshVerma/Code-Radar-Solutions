@@ -15,8 +15,8 @@ int main(){
         char c = (tolower(str[i]));
         printf("%c",c);
     }
-    else if(str[i]==' '){
-        printf(" ");
+    else{
+        printf("%c",str[i]);
     }
     i++;
     }
