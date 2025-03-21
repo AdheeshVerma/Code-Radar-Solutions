@@ -11,7 +11,7 @@ void toupp(char* str){
 }
 int main(){
     char str[500];
-    scanf("%s",str);
+    fgets(str,sizeof(str),stdin);
     toupp(str);
     printf("%s",str);
     return 0;
