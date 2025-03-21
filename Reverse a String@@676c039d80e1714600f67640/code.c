@@ -12,7 +12,7 @@ int main(){
     char str[500];
     scanf("%s",str);
     int i=0,count=0;
-    while(i!=0){
+    while(i!='\0'){
         count++;
         i++;
     }
