@@ -8,9 +8,12 @@ int main(){
         if(str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u'){
             printf("%c",str[i]);
         }
-        else{
-            // i++;
+        else if(str[i]==' '){
             printf(" ");
+        }
+        else{
+            i++;
+            continue;
         }
         i++;
     }
