@@ -10,7 +10,11 @@ int max(int* arr, int n){
             se = arr[i];
         }  
     }
-return se;
+    if(se){
+return se;}
+else{
+    return -1;
+}
 }
 int main(){
     int a;
