@@ -5,15 +5,15 @@ int main(){
     fgets(str,sizeof(str),stdin);
     int i = 0;
     while(str[i]!='\0'){
-        if(str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u'){
-            printf("%c",str[i]);
+        if(str[i]!='a' || str[i]!='e' || str[i]!='i' || str[i]!='o' || str[i]!='u'){
+            i++;
+            continue;
         }
         else if(str[i]==' '){
             printf(" ");
         }
         else{
-            i++;
-            continue;
+            printf("%c",str[i]);
         }
         i++;
     }
