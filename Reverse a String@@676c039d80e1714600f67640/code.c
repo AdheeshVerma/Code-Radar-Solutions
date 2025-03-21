@@ -1,24 +1,21 @@
 #include<stdio.h>
-int counter(char* arr){
-    int n=0;
-    while(arr[n]!='\0'){
-        n++;
+void rev(char* str,start,end){
+    while(start<end){
+        int temp = start;
+        start = end;
+        end = temp;
+        start++;
+        end--;
     }
-    return n;
-}
-void reversing(char* arr, int l){
-    for(int i=0;i<l/2;i++){
-        int temp = arr[i];
-        arr[i]=arr[l-i-1];
-        arr[l-i-1]=temp;
-    }
-    
 }
 int main(){
-    char arr[50];
-    scanf("%s",arr);
-    int l = counter(arr);
-    reversing(arr,l);
-    printf("%s",arr);
-    return 0;
+    char str[500];
+    scanf("%s",str);
+    int i=0,count=0;
+    while(i!=0){
+        count++;
+        i++;
+    }
+    rev(str,0,count);
+    printf("%s",str);
 }
