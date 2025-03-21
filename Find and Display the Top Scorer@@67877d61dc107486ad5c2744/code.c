@@ -33,6 +33,6 @@ int main(){
         
     }
  
-    printf("Roll Number: %d, Name: %s, Marks: %.2f\n",roll,name,max);
+    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",roll,name,max);
 
 }
