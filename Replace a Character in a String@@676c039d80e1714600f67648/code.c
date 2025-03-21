@@ -5,7 +5,7 @@ int main(){
     char c2;
     fgets(str,sizeof(str),stdin);
     scanf("%c",&c);
-    getchar();
+    // getchar();
     scanf("%c",&c2);
     int i = 0;
     while(str[i]!='\0'){
