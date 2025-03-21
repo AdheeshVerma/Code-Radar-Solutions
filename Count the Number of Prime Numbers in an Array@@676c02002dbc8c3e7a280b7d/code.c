@@ -1,7 +1,10 @@
 // Your code here...
 #include<stdio.h>
 int isprime(int a){
-    if(a==2){
+    if(a<2){
+        return 0;
+    }
+    else if(a==2){
         return 1;
     }
     else if(a>2){
