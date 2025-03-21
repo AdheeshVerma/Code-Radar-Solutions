@@ -16,6 +16,6 @@ int main(){
         count++;
         i++;
     }
-    rev(str,0,count);
+    rev(str,0,count-1);
     printf("%s",str);
 }
