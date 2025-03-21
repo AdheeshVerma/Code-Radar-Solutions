@@ -10,6 +10,7 @@ int main(){
         if(str[i]==c){
             count++;
         }
+        i++;
     }
     printf("%d",count);
 }
