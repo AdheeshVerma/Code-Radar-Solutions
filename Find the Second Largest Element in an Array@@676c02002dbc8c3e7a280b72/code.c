@@ -22,8 +22,12 @@ int max(int* arr, int n){
             se = arr[i];
         }  
     }
+    if(max==se){
+        return -1;
+    }
     if(se){
-return se;}
+    return se;
+    }
 else{
     return -1;
 }
