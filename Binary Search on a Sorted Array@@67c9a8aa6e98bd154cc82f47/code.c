@@ -1,5 +1,5 @@
 // Your code here...
-binarySearch(arr,n,target){
+binarySearch(int* arr,int n,int target){
     int low, mid, high;
     low = 0;
     high = n-1;
