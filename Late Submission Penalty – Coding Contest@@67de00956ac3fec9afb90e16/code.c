@@ -14,6 +14,6 @@ int calculatePenalty(int subday,int submonth, int subyear,int dueday,int duemont
         return fine;
     }
     else{
-        retrun 0;
+        return 0;
     }
 }
