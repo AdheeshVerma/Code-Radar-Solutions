@@ -54,5 +54,5 @@ int incrementToPrimeDigits(int n){
     }
     flipper(arr,0,count);
     int res = joiner(arr,count);
-    return res;
+    //return res;
 }
