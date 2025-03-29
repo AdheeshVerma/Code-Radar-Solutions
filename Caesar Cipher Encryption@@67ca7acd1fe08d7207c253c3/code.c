@@ -1,16 +1,26 @@
-// Your code here...
-void caesarCipher(char* message, int shift, char* encrypted){
-    int len = sizeof(message)/sizeof(message[0]);
-    for(int i=0;i<len;i++){
+void caesarCipher(char *message, int shift, char *encrypted)
+{
+    int len = strlen(message);
+    for (int i = 0; i < len; i++)
+    {
         char r = message[i];
-        if(r<'z' && r>'a'){
-            if(r+shift>'z'){
-                r=shift-'z'+'a';
-            }
-            else
-            r+=shift;
+        if (r >= 'a' && r <= 'z')
+        {
+            r = ((r - 'a' + shift) % 26) + 'a';
         }
-        encrypted[i]=r;
+        else
+        {
+            r += shift;
+        }
+        encrypted[i] = r;
     }
+    encrypted[len] = '\0';
 
+    for (int i = 0; i < len; i++)
+    {
+        if (encrypted[i] == '#')
+        {
+            encrypted[i] = ' ';
+        }
+    }
 }
