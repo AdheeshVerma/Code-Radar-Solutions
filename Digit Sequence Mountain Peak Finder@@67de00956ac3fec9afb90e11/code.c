@@ -24,6 +24,7 @@ int mountainPeak(int n){
     for(int i=0;i<count;i++){
         int r = n%10;
         arr[count-i-1]=r;
+        n/=10;
     }
     sorter(arr,count);
     for(int i=0;i<count;i++){
