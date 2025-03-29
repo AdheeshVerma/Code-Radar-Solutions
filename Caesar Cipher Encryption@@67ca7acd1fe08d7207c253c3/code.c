@@ -1,5 +1,5 @@
 // Your code here...
-caesarCipher(char* message, int shift, char* encrypted){
+void caesarCipher(char* message, int shift, char* encrypted){
     int len = sizeof(message)/sizeof(message[0]);
     for(int i=0;i<len;i++){
         char r = message[i];
