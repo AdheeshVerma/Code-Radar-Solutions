@@ -1,6 +1,9 @@
 // Your code here...
 int fact(int a){
-    int fac = 1
+    if(a==0){
+        return 1;
+    }
+    int fac = 1;
     for(int i=1;i<a;i++){
         fac*=i;
     }
