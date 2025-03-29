@@ -1,5 +1,5 @@
 // Your code here...
-int joiner(int* arr,n){
+int joiner(int* arr,int n){
     int res = 0;
     for(int i=0;i<count;i++){
         int a = arr[i];
@@ -7,7 +7,7 @@ int joiner(int* arr,n){
     }
     return res;
 }
-void flipper(int* arr,a,b){
+void flipper(int* arr,int a,int b){
 int temp = arr[a];
 arr[a]=arr[b];
 arr[b]=temp;
