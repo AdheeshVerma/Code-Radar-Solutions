@@ -10,7 +10,7 @@ int calculatePenalty(int subday,int submonth, int subyear,int dueday,int duemont
         return fine;
     }
     else{
-        fine = 10*(subday-dueday)
-        return fine
+        fine = 10*(subday-dueday);
+        return fine;
     }
 }
