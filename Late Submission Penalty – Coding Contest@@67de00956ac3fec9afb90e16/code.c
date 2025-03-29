@@ -1,16 +1,19 @@
 // Your code here...
 int calculatePenalty(int subday,int submonth, int subyear,int dueday,int duemonth, int dueyear){
     int fine;
-    if(subyear!=dueyear){
+    if(subyear!=dueyear && subyear>dueyear){
         fine = 5000;
         return fine;
     }
-    else if(submonth!=duemonth){
+    else if(submonth>duemonth){
         fine = 200*(submonth-duemonth);
         return fine;
     }
-    else{
+    else if(subday>dueday){
         fine = 10*(subday-dueday);
         return fine;
+    }
+    else{
+        retrun 0;
     }
 }
