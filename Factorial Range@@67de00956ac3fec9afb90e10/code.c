@@ -13,7 +13,7 @@ void factorialRange(int a,int b){
     }
     if(a>b){
         printf("Invalid range");
-        return
+        return;
     }
     for(int i=a;i<=b;i++){
         int res = fact(i);
