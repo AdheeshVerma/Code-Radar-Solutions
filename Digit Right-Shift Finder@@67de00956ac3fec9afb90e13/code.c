@@ -11,7 +11,7 @@ int digitRightShift(int n){
 res*=10;
     }
     res*=r;
-    res+=n
+    res+=n;
     return res;
 
 }
