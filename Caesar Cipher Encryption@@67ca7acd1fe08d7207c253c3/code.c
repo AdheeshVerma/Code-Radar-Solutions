@@ -15,9 +15,12 @@ void caesarCipher(char *message, int shift, char *encrypted)
         if (r >= 'a' && r <= 'z')
         {
             r = ((r - 'a' + shift) % 26) + 'a';
+            r += shift;
+
         }
-        else
+        else if(r >= 'A' && r <= 'Z')
         {
+            r = ((r - 'A' + shift) % 26) + 'A';
             r += shift;
         }
         encrypted[i] = r;
