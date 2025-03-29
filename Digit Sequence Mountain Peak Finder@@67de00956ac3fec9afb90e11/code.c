@@ -27,9 +27,7 @@ int mountainPeak(int n){
         n/=10;
     }
     sorter(arr,count);
-    for(int i=0;i<count;i++){
-        printf("%d",arr[i]);
-    }
+
     if(arr[count-1]==arr[count-2]){
         return -1;
     }
