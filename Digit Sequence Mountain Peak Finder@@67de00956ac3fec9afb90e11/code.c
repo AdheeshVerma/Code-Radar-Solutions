@@ -30,6 +30,6 @@ int mountainPeak(int n){
         return -1;
     }
     else{
-        retrun (arr[count-1]);
+        return (arr[count-1]);
     }
 }
