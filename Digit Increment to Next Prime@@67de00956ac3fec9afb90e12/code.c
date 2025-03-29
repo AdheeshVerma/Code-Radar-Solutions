@@ -20,12 +20,14 @@ int incrementToPrimeDigits(int n){
         count++;
         a/=10;
     }
-    printf("%d",count);
     int arr[count];
     for(int i=0;i<count;i++){
         int r=n%10;
         arr[i]=r;
         n/=10;
+    }
+    for(int i=0;i<count;i++){
+        printf("%d\n",arr[i]);
     }
     for(int i=0;i<count;i++){
         if(arr[i]==0)
