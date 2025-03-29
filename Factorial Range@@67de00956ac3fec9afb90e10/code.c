@@ -7,6 +7,14 @@ int fact(int a){
     return fac;
 }
 void factorialRange(int a,int b){
+    if(a<0 || b<0){
+        printf("Invalid range");
+        return;
+    }
+    if(a>b){
+        printf("Invalid range");
+        return
+    }
     for(int i=a;i<=b;i++){
         int res = fact(i);
         printf("%d\n",res);
