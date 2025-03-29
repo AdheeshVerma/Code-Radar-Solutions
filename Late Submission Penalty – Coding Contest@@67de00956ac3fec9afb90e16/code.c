@@ -5,6 +5,9 @@ int calculatePenalty(int subday,int submonth, int subyear,int dueday,int duemont
         fine = 5000;
         return fine;
     }
+    if(subyear<dueyear){
+        return 0;
+    }
     else if(submonth>duemonth){
         fine = 200*(submonth-duemonth);
         return fine;
