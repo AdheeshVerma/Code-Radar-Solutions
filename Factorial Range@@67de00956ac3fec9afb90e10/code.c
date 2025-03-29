@@ -11,7 +11,7 @@ int fact(int a){
 }
 void factorialRange(int a,int b){
     for(int i=a;i<b;i++){
-        int res = fact(int i);
+        int res = fact(i);
         printf("%d",res);
     }
 }
