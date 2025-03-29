@@ -23,7 +23,7 @@ int incrementToPrimeDigits(int n){
     int arr[count];
     for(int i=0;i<count;i++){
         int r=n%10;
-        arr[i]=r;
+        arr[count-i]=r;
         n/=10;
     }
     for(int i=0;i<count;i++){
