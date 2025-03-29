@@ -44,9 +44,7 @@ int incrementToPrimeDigits(int n){
         arr[i]=2;}
         
     }
-        for(int i=0;i<count;i++){
-        printf("%d\n",arr[i]);
-    }
+        
     int res = joiner(arr,count);
-    //return res;
+    return res;
 }
