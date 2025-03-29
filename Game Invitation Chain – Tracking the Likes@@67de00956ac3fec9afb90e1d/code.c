@@ -5,7 +5,7 @@ int totalLikes(int n){
     }
     else{
         int shared = 5,res=0;
-        for(int i=0;i<n){
+        for(int i=0;i<n;i++){
             int likes = shared/2;
             res+=likes;
             shared = likes*3;
