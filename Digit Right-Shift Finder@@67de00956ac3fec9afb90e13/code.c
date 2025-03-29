@@ -5,9 +5,13 @@ int digitRightShift(int n){
         count++;
         a/=10;
     }
-    int r = n%10;
+    int r = n%10,res=1;
     n/=10;
-    int res = (r+10*(count-1))+n;
+    for(int i = 0;i<count-1;i++){
+res*=10;
+    }
+    res*=r;
+    res+=n
     return res;
 
 }
