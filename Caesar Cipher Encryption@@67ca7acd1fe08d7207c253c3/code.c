@@ -26,7 +26,7 @@ void caesarCipher(char *message, int shift, char *encrypted)
 
     for (int i = 0; i < len; i++)
     {
-        if (encrypted[i] == '#' || encrypted[i]='$')
+        if (encrypted[i] == '#' || encrypted[i]=='$')
         {
             encrypted[i] = ' ';
         }
