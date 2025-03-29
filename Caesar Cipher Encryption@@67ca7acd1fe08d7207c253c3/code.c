@@ -8,7 +8,7 @@ int counter(char* str){
 }
 void caesarCipher(char *message, int shift, char *encrypted)
 {
-    int len = coutner(message);
+    int len = counter(message);
     for (int i = 0; i < len; i++)
     {
         char r = message[i];
