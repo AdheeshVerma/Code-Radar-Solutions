@@ -22,10 +22,10 @@ int incrementToPrimeDigits(int n){
     }
 
     for(int i=0;i<count;i++){
-        if(arr[i]==0)
-        arr[i]=2;
-        else if(arr[i]==1)
-        arr[i]==2;
+        if(arr[i]==0){
+        arr[i]=2;}
+        else if(arr[i]==1){
+        arr[i]==2;}
         else if(arr[i]==2)
         arr[i]==3;
         else if(arr[i]==3)
