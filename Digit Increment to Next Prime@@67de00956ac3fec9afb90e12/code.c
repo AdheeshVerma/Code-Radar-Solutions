@@ -7,13 +7,7 @@ int joiner(int* arr,int n){
     }
     return res;
 }
-void flipper(int* arr,int a,int b){
-int temp = arr[a];
-arr[a]=arr[b];
-arr[b]=temp;
-a++;
-b--;
-}
+
 int incrementToPrimeDigits(int n){
     int a=n,count=0;
     while(a){
@@ -26,9 +20,7 @@ int incrementToPrimeDigits(int n){
         arr[count-i-1]=r;
         n/=10;
     }
-    for(int i=0;i<count;i++){
-        printf("%d\n",arr[i]);
-    }
+
     for(int i=0;i<count;i++){
         if(arr[i]==0)
         arr[i]=2;
@@ -52,7 +44,9 @@ int incrementToPrimeDigits(int n){
         arr[i]==2;
         
     }
-    flipper(arr,0,count);
+        for(int i=0;i<count;i++){
+        printf("%d\n",arr[i]);
+    }
     int res = joiner(arr,count);
     //return res;
 }
