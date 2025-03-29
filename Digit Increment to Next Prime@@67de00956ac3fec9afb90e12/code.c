@@ -21,7 +21,7 @@ int incrementToPrimeDigits(int n){
         a/=10;
     }
     int arr[count];
-    for(int i=0,i<count;i++){
+    for(int i=0;i<count;i++){
         int r=n%10;
         arr[i]=r;
         n/=10;
