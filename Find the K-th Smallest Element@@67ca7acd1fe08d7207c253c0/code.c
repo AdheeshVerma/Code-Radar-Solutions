@@ -12,5 +12,8 @@ void sorter(int* arr,int n){
 }
 int kthSmallest(int* arr,int a,int b){
     sorter(arr,a);
+    if(b>a){
+        return -1;
+    }
     return(arr[b-1]);
 }
