@@ -10,6 +10,7 @@ int isPrime(int a){
         for(int i=2;i<a;i++){
             if(i%a==0){
                 prime =0;
+                break;
             }
         }
         return prime;
