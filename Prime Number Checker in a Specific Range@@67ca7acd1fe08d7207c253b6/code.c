@@ -12,7 +12,7 @@ int isPrime(int a){
                 prime =0;
             }
         }
-        retrun prime;
+        return prime;
     }
 }
 void printPrimesInRange(int a,int b){
