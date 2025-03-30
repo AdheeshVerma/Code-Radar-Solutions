@@ -8,8 +8,8 @@ int isPrime(int a){
     }
     else{
         for(int i=2;i<a;i++){
-            if(i%a==0){
-                prime =0;
+            if(a%i==0){
+                prime = 0;
                 break;
             }
         }
@@ -18,9 +18,9 @@ int isPrime(int a){
 }
 void printPrimesInRange(int a,int b){
     for(int i=a;i<b;i++){
-        int u =isPrime(i);{
+        int u = isPrime(i);{
             if(u){
-                printf("%d",i);
+                printf("%d ",i);
             }
         }
     }
